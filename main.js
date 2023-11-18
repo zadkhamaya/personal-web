@@ -10,3 +10,14 @@ const typed = new Typed("#element", {
   typeSpeed: 50,
   loop: true,
 });
+
+const typedOne = new Typed("#element1", {
+  strings: [
+    "Need More Information?",
+    "Have a Question?",
+    "Need Collaboration?",
+    "Need Help?",
+  ],
+  typeSpeed: 80,
+  loop: true,
+});

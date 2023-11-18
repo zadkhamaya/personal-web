@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-zinc-950;
+    @apply bg-gradient-to-br from-zinc-950 from-50% to-indigo-900;
   }
 
   h1 {
@@ -17,10 +17,17 @@
 
 @layer components {
   .card {
-    @apply bg-zinc-200/5 p-6 rounded-3xl  min-h-[300px];
+    @apply bg-zinc-200/5 p-6 rounded-3xl lg:min-h-[300px];
+  }
+  .cardnobg {
+    @apply py-6;
   }
   .btn-primary {
     @apply hover:bg-blue-400;
+  }
+
+  .software {
+    @apply bg-zinc-300 px-4 py-2 rounded-full text-zinc-900 font-medium;
   }
 }
 /* bg-gradient-to-br from-zinc-950 to-stone-700 border-2 border-zinc-600/50*/
