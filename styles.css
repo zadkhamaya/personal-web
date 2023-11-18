@@ -23,7 +23,7 @@
     @apply py-6;
   }
   .btn-primary {
-    @apply hover:bg-blue-400;
+    @apply hover:bg-indigo-600;
   }
 
   .software {

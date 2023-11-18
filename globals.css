@@ -588,7 +588,7 @@ button {
 
 .btn-primary:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+  background-color: rgb(79 70 229 / var(--tw-bg-opacity));
 }
 
 .software {
@@ -721,6 +721,11 @@ button {
   line-height: 1.75rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-light {
   font-weight: 300;
 }
@@ -735,6 +740,10 @@ button {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .italic {
@@ -759,10 +768,6 @@ button {
 
   .lg\:m-auto {
     margin: auto;
-  }
-
-  .lg\:h-auto {
-    height: auto;
   }
 
   .lg\:grid-cols-2 {
