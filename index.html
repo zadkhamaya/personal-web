@@ -9,7 +9,9 @@
   </head>
   <body class="mx-20 my-20">
     <main class="max-w-3xl lg:m-auto">
-      <section class="flex gap-10 items-center justify-center">
+      <section
+        class="flex flex-col lg:flex-row gap-10 items-center justify-center"
+      >
         <img
           src="/public/profile_gap.jpg"
           width="150px"
@@ -17,7 +19,7 @@
           class="rounded-full"
         />
         <div class="text-white -space-y-0">
-          <p class="text-3xl font-semibold">Geofrie Azarya Putra</p>
+          <p class="text-2xl lg:text-3xl font-semibold">Geofrie Azarya Putra</p>
           <p class="text-xl font-medium">// <span id="element"></span></p>
           <p class="font-light">
             📍<span class="italic font-normal">South Jakarta, Indonesia.</span>
@@ -26,7 +28,9 @@
       </section>
       <section class="text-white space-y-4 mt-10">
         <hr />
-        <p class="text-3xl font-semibold italic">Hi there, I'm Geoff.</p>
+        <p class="text-2xl lg:text-3xl font-semibold italic">
+          Hi there, I'm Geoff.
+        </p>
         <p>
           I'm a Civil Engineer by day and 3D Artist / Self-taught Programmer by
           night. My goal is to combine creative thinking and design with an
@@ -46,16 +50,14 @@
       </section>
       <section class="grid grid-cols-1 lg:grid-cols-2 gap-4 text-white my-5">
         <div class="cardnobg lg:col-span-2">
-          <div class="flex justify-between gap-8">
+          <div class="flex flex-col lg:flex-row justify-between gap-8">
             <div class="font-semibold text-2xl">🎓 Education</div>
             <div class="space-y-1">
-              <div class="text-2xl font-medium">
-                Master of Civil Engineering
-              </div>
+              <div class="text-xl font-medium">Master of Civil Engineering</div>
               <div class="italic font-light">
                 Bandung Institute of Technology
               </div>
-              <div class="text-2xl font-medium">
+              <div class="text-xl font-medium">
                 Bachelor of Civil Engineering
               </div>
               <div class="italic font-light">
@@ -64,33 +66,33 @@
             </div>
           </div>
         </div>
-        <div class="card flex lg:flex-col justify-between gap-8">
+        <div class="card flex flex-col justify-between gap-8">
           <div class="font-semibold text-2xl">🛠️ Expertise</div>
-          <div>
-            <div>Structural Engineering</div>
-            <div>Civil Engineering</div>
-            <div>Seismic Design</div>
-            <div>Finite Element Method</div>
-            <div>CAD Drawing</div>
-            <div>Lean Management</div>
-            <div>Critical Thinking</div>
+          <div class="flex gap-2 flex-wrap text-sm">
+            <div class="software">Structural Engineering</div>
+            <div class="software">Civil Engineering</div>
+            <div class="software">Seismic Design</div>
+            <div class="software">Finite Element Method</div>
+            <div class="software">CAD Drawing</div>
+            <div class="software">Lean Management</div>
+            <div class="software">Critical Thinking</div>
           </div>
         </div>
-        <div class="card flex lg:flex-col justify-between gap-8">
+        <div class="card flex flex-col justify-between gap-8">
           <div class="font-semibold text-2xl">👨‍💻 Skills</div>
-          <div>
-            <div>3D CAD Modeling</div>
-            <div>3D Visualization</div>
-            <div>3D Printing</div>
-            <div>Photography</div>
-            <div>HTML</div>
-            <div>CSS</div>
-            <div>Javascript</div>
+          <div class="flex gap-2 flex-wrap text-sm">
+            <div class="software">3D CAD Modeling</div>
+            <div class="software">3D Visualization</div>
+            <div class="software">3D Printing</div>
+            <div class="software">Photography</div>
+            <div class="software">HTML</div>
+            <div class="software">CSS</div>
+            <div class="software">Javascript</div>
           </div>
         </div>
         <div class="card lg:col-span-2 flex flex-col justify-between gap-8">
           <div class="font-semibold text-2xl">💿 Software</div>
-          <div class="flex gap-2 flex-wrap">
+          <div class="flex gap-2 flex-wrap text-sm">
             <div class="software">Autocad</div>
             <div class="software">ETABS</div>
             <div class="software">SAP2000</div>
